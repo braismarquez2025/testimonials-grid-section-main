@@ -7,18 +7,14 @@ Esta es una solución al [desafío de la sección de comentarios con grid en Fro
 - [Descripción general](#descripcion-general)
   - [Captura de pantalla](#captura-de-pantalla)
   - [Links](#links)
-- [Mi proceso](#mi-proceso)
   - [Llevado a cabo con](#llevado-a-cabo-con)
   - [Lo que aprendí](#lo-que-aprendi)
-  - [Desarrollo continuo](#desarrollo-continuo)
-  - [Recursos útiles](#recursos-utiles)
-- [Autor](#autor)
-- [Agradecimientos](#agradecimientos)
+  - [Autor](#autor)
 
 ## Descripción general
 
 ### Captura de pantalla
-![](./assets/images/Frontend-Mentor-Recipe-page-04-20-2025_09_22_PM.png)
+![](./images/Frontend-Mentor-Challenge-Name-Here--04-21-2025_01_24_PM.png)
 
 
 ### Links
@@ -35,6 +31,10 @@ Esta es una solución al [desafío de la sección de comentarios con grid en Fro
 - Preprocesador SCSS
 - Flexbox
 - CSS Grid
+
+
+### Lo que aprendí
+He aprendido a colocar sombras de distintos tipos a los elementos y he mejorado mucho a la hora de usar grid. He realizado los diseños utilizando grid-area, es la forma que más fácil me ha resultado a pesar de no haberla utilizado anteriormente.
 
 ### Autor 
 - Usuario de Frontend - [@braismarquez2025](https://www.frontendmentor.io/profile/braismarquez2025)
