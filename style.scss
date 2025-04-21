@@ -82,19 +82,9 @@ html {
 }
 
 body {
-    margin-left: rem(35);
-    margin-right: rem(35);
+    margin-left: 5%;
+    margin-right: 5%;
     background-color: #F6F5F6;
-
-    @include breakpoint(tablet) {
-        margin-left: rem(61);
-        margin-right: rem(61);
-    }
-
-    @include breakpoint(desktop) {
-        margin-left: rem(80);
-        margin-right: rem(80);
-    }
 }
 
 
@@ -125,15 +115,46 @@ body {
     }
 }
 
+.item {
+    border-radius: rem(8);
+    padding: rem(32);  
+    margin-bottom: rem(32);
+
+    @include breakpoint(tablet) {
+        margin-bottom: rem(12);
+    }
+
+    @include breakpoint(desktop) {
+        margin-bottom: rem(24);
+    }
+}
+
+.header {
+    display: flex;
+    align-items: start;
+    margin-bottom: rem(16);
+    gap: rem(17);
+}
+
+.img {
+    width: rem(28);
+    height: rem(28);
+    border-radius: 50%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: rem(4);
+}
+
 
 
 
 .item_1 {
-    background-color: $purple-500;
-    border-radius: rem(8);
-    padding: rem(32);  
+    background-color: $purple-500; 
     margin-top: rem(73);
-    margin-bottom: rem(32);
     box-shadow: 20px 40px 30px rgba(0, 0, 0, 0.1);
     grid-area: item1;
     
@@ -155,30 +176,18 @@ body {
 
     @include breakpoint(desktop) {
         &::before {
-            top: rem(75);
-            right: rem(580);
+            top: rem(80);
+            right: rem(610);
         }
     }
     
     &-header {
-        display: flex;
-        align-items: start;
-        margin-bottom: rem(16);
-        gap: rem(17);
-
+        margin-bottom: rem(8);
         &-img {
-            width: rem(28);
-            height: rem(28);
             border: 2px solid $purple-300;
-            border-radius: 50%;
         }
 
         &-text {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: rem(4);
-
             p {
                 color: white;
             }
@@ -206,31 +215,11 @@ body {
 
 .item_2 {
     background-color: $grey-500;
-    border-radius: rem(8);
-    padding: rem(32);  
-    margin-bottom: rem(32);
     box-shadow: 20px 40px 30px rgba(0, 0, 0, 0.1);
     grid-area: item2;
     
     &-header {
-        display: flex;
-        align-items: center;
-        margin-bottom: rem(16);
-        gap: rem(17);
-        
-
-        &-img {
-            width: rem(28);
-            height: rem(28);
-            border-radius: 50%;
-        }
-
         &-text {
-            display: flex;
-            flex-direction: column;
-            align-items: start;
-            gap: rem(4);
-
             p {
                 color: white;
             }
@@ -257,30 +246,11 @@ body {
 
 .item_3 {
     background-color: white;
-    border-radius: rem(8);
-    padding: rem(32);  
-    margin-bottom: rem(32);
     box-shadow: 20px 40px 30px rgba(0, 0, 0, 0.1);
     grid-area: item3;
     
     &-header {
-        display: flex;
-        align-items: center;
-        margin-bottom: rem(16);
-        gap: rem(17);
-
-        &-img {
-            width: rem(28);
-            height: rem(28);
-            border-radius: 50%;
-        }
-
         &-text {
-            display: flex;
-            flex-direction: column;
-            align-items: start;
-            gap: rem(4);
-
             p {
                 color: $grey-500;
             }
@@ -303,31 +273,15 @@ body {
 
 .item_4 {
     background-color: $dark-blue;
-    border-radius: rem(8);
-    padding: rem(32);  
-    margin-bottom: rem(32);
     box-shadow: 20px 40px 30px rgba(0, 0, 0, 0.1);
     grid-area: item4;
     
     &-header {
-        display: flex;
-        align-items: start;
-        margin-bottom: rem(16);
-        gap: rem(17);
-
         &-img {
-            width: rem(28);
-            height: rem(28);
             border: 2px solid $purple-300;
-            border-radius: 50%;
         }
 
         &-text {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: rem(4);
-
             p {
                 color: white;
             }
@@ -351,31 +305,12 @@ body {
 
 .item_5 {
     background-color: white;
-    border-radius: rem(8);
-    padding: rem(32);  
     margin-bottom: rem(73);
     box-shadow: 20px 40px 30px rgba(0, 0, 0, 0.1);
     grid-area: item5;
 
     &-header {
-        display: flex;
-        align-items: start;
-        flex-wrap: wrap;
-        margin-bottom: rem(16);
-        gap: rem(17);
-
-        &-img {
-            width: rem(28);
-            height: rem(28);
-            border-radius: 50%;
-        }
-
         &-text {
-            display: flex;
-            flex-direction: column;
-            align-items: start;
-            gap: rem(4);
-
             p {
                 color: $grey-500;
             }
